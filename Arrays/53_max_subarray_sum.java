@@ -20,6 +20,7 @@ class Solution {
         return maxsum;
     }
 }  //logic is to keep track of current sum if it becomes negative reset it to current element and keep updating max sum
+   //logic source: https://www.youtube.com/watch?v=2MmGzdiKR9Y&ab_channel=NeetCode
    //time complexity O(n)
 //space complexity O(1)
 //leetcode link: https://leetcode.com/problems/maximum-subarray/ //problem number 53 //medium //array //dynamic programming
