@@ -13,11 +13,13 @@ class Solution {
         ListNode prev= null;
         ListNode curr= head;
     while(curr !=null){
-        ListNode next= curr.next;
-        curr.next=prev;
-        prev=curr;
-        curr=next;
+        ListNode next= curr.next;//store next node
+        curr.next=prev;//reverse the link list 
+        prev=curr;//move prev to curr
+        curr=next;//move curr to next
     }
     return prev;
     }
 }
+//Time complexity: O(n)
+//Space complexity: O(1)
