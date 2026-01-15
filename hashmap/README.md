@@ -105,4 +105,4 @@ HashMap {
       code: "if (!map.has(x)) map.set(x, i);"
       useCase: "Avoids duplicates and keeps first occurrence"
     }
-  ]
+  
