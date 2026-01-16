@@ -11,7 +11,7 @@
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev= null;
-        ListNode curr= head;
+        ListNode curr= head;gi
     while(curr !=null){
         ListNode next= curr.next;//store next node
         curr.next=prev;//reverse the link list 
